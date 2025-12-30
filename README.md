@@ -6,17 +6,14 @@ This is a **MUST DO** for newcomers so please read thoroughly.
 
 Currently we offer:
 
-- x86_64 PVE based VMs/LXC containers¹
-- RISC-V boards access²
-- Jumper host *Lancer*³
-- x86_64 TrueNAS SCALE based VMs⁴
-- Tailscale DERP server⁵
+- RISC-V boards access¹
+- Jumper host *Lancer*²
+- x86_64 TrueNAS SCALE based VMs/Incus based LXC containers³
+- Tailscale DERP server⁴
 - HTTP/HTTPS reverse proxies for downloading files (outside Chinese Mainland, if it's too slow for you)
 - Probably more
 
-¹: located in ISCAS, Beijing
-
-² ³ ⁴ ⁵: hosted by @KevinMX at his home, for all boards here you're force to use *Lancer* as a jumper host. Security reasons, you know.
+¹ ² ³ ⁴: hosted by @KevinMX at his home, for all boards here you're forced to use *Lancer* as a jumper host. Security reasons, you know.
 
 ### Usage / SOP
 
@@ -40,13 +37,11 @@ Currently we offer:
 - **DO NOT** share/expose login credentials outside testing team. Internal use only.
 - Inform @KevinMX if you changed your GitHub username, or create a new PR here.
 
-> ISCAS do network security scans every month. If you have ports exposed with weak passwords then good luck with that :)
+> If you have ports exposed with weak passwords then good luck with that :)
 >
-> As for those hosted at my house, I don't really care but PLEASE at least don't screw up my home network.
+> For those hosted at my house, I don't really care but PLEASE at least don't screw up my home network.
 
 ### Other notes
-
-The PVE host is using 4x SAS HDD RAID-5 setup, so do expect slow IO.
 
 For more notes check pinned messages in the Telegram group.
 
